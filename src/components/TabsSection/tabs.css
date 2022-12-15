@@ -1,0 +1,49 @@
+.container {
+    width: 100%;
+    height: 250px;
+  }
+  
+  .tab-list {
+    height: 50px;
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    padding: 0;
+    margin: 20px;
+  }
+  
+  .tabs {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    margin: 5px
+  }
+  
+  .active-tabs::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100%);
+    height: 4px;
+    background: #D34649;
+  }
+  
+  .content {
+      display: none;
+      margin: 0;
+      width: 100%;
+  }
+  
+  .active-content {
+      display: flex;
+  }
+  
+  
+  
+  
