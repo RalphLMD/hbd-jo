@@ -1,0 +1,2 @@
+*{box-sizing:border-box;margin:0;padding:0}.container{height:250px;width:100%}.tab-list{display:flex;font-size:18px;height:50px;list-style:none;margin:20px;padding:0}.tabs{align-items:center;cursor:pointer;display:flex;justify-content:center;margin:5px;position:relative;width:40%}.active-tabs:before{background:#d34649;bottom:0;content:"";display:block;height:4px;left:50%;position:absolute;-webkit-transform:translateX(-50%);transform:translateX(-50%);width:100%}.content{display:none;margin:0;width:100%}.active-content{display:flex}
+/*# sourceMappingURL=main.3efa9de7.css.map*/
